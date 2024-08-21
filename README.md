@@ -1,6 +1,7 @@
 # Luigi.AI
-![image](https://github.com/user-attachments/assets/d16b26a4-de2c-42e3-b7aa-559333e53aa1)
+![InShot_20240820_224422118](https://github.com/user-attachments/assets/fa84c5da-9d60-4aaa-b2b0-09d67572b9b2)
 
+![InShot_20240820_224138456](https://github.com/user-attachments/assets/382c3948-c458-4cac-9d06-da17be59235a)
 ### Explanation:
 
 This code utilizes LLMs with LangChain, OpenAI_API, and Pinecone or Chroma (open source vector store) and Streamlit to create a document-centric question answering application. Users can upload documents in various formats (PDF, docx, txt) and ask questions about their content. The application leverages OpenAI's GPT-3.5-turbo model to generate answers based on the uploaded document.
@@ -9,7 +10,6 @@ This code utilizes LLMs with LangChain, OpenAI_API, and Pinecone or Chroma (open
 
 * The `load_document` function handles file upload and recognizes supported formats (PDF, docx, txt).
 * The `chunk_data` function splits the document text into smaller chunks for efficient processing.
-![InShot_20240820_224422118](https://github.com/user-attachments/assets/fa84c5da-9d60-4aaa-b2b0-09d67572b9b2)
 
 ### Embedding Creation:
 
@@ -17,7 +17,6 @@ This code utilizes LLMs with LangChain, OpenAI_API, and Pinecone or Chroma (open
 * These embeddings capture the semantic meaning of the text and are stored in a Chroma vector store for fast retrieval.
 
 ### Question Answering:
-![InShot_20240820_224138456](https://github.com/user-attachments/assets/382c3948-c458-4cac-9d06-da17be59235a)
 
 * The `ask_and_get_answer` function takes the user's question and the vector store as inputs.
 * It retrieves the `k` most relevant document chunks from the vector store based on their semantic similarity to the question.
