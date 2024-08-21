@@ -3,7 +3,7 @@
 
 ### Explanation:
 
-This code utilizes Langchain and Streamlit to create a document-centric question answering application. Users can upload documents in various formats (PDF, docx, txt) and ask questions about their content. The application leverages OpenAI's GPT-3.5-turbo model to generate answers based on the uploaded document.
+This code utilizes LLMs with LangChain, OpenAI_API, and Pinecone or Chroma (open source vector store) and Streamlit to create a document-centric question answering application. Users can upload documents in various formats (PDF, docx, txt) and ask questions about their content. The application leverages OpenAI's GPT-3.5-turbo model to generate answers based on the uploaded document.
 
 ### Functionalities:
 
