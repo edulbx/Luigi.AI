@@ -1,4 +1,5 @@
 # Luigi.AI
+![image](https://github.com/user-attachments/assets/d16b26a4-de2c-42e3-b7aa-559333e53aa1)
 
 ### Explanation:
 
