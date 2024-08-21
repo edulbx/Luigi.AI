@@ -22,7 +22,8 @@ Finally, the GPT-3 model generates an answer based on the combined context.
 Cost Estimation:
 
 The calculate_embedding_cost function estimates the cost associated with generating embeddings for the document chunks based on the OpenAI API pricing.
-Streamlit User Interface:
+
+### Streamlit User Interface
 
 The application utilizes Streamlit for a user-friendly interface.
 Users can upload documents, adjust chunk size and the number of retrieved chunks (k), and then ask questions about the document.
