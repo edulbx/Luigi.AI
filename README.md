@@ -1,10 +1,10 @@
 # Luigi.AI
 
-###Explanation:
+### Explanation:
 
 This code utilizes Langchain and Streamlit to create a document-centric question answering application. Users can upload documents in various formats (PDF, docx, txt) and ask questions about their content. The application leverages OpenAI's GPT-3.5-turbo model to generate answers based on the uploaded document.
 
-###Functionalities:
+### Functionalities:
 
 
 The load_document function handles file upload and recognizes supported formats (PDF, docx, txt).
